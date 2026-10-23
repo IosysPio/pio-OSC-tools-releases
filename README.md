@@ -4,14 +4,24 @@ Iosys Pio制作の、OSC系ツールの配布専用リポジトリです。
 
 **このリポジトリは、配布物(バイナリ)の公開専用です。ソースコードは含まれていません。**
 
-## ダウンロード方法
+## ツール一覧
 
-[Releases](../../releases) から目的のツールのリリースを開き、
-**Assets** 内の `.zip` をクリックしてダウンロードしてください。
+| ツール | 内容 | 最新版 |
+|---|---|---|
+| OSCMes | OSC 受信対応の VCI へ PC からテキストメッセージを送信 | [v0.1](https://github.com/IosysPio/pio-OSC-tools-releases/releases/tag/OSCMes-v0.1) |
 
-各ツールの説明は告知ページをご覧ください。
+各ツールの詳しい説明は告知ページをご覧ください。
 
 - https://piolabopages.pages.dev/tools/
+
+## ダウンロード方法
+
+1. 上の表の「最新版」のリンクから、目的のツールのリリースを開きます。
+2. ページ下部の **Assets** 内にある `.zip` をクリックしてダウンロードします。
+   (`Source code` の zip / tar.gz は GitHub が自動で付けるもので、ツールは入っていません)
+3. zip を展開し、同梱の readme をご覧ください。
+
+旧版を含むすべてのリリースは [Releases](https://github.com/IosysPio/pio-OSC-tools-releases/releases) から確認できます。
 
 ## ライセンス
 
