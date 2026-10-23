@@ -9,6 +9,8 @@ Iosys Pio制作の、OSC系ツールの配布専用リポジトリです。
 | ツール | 内容 | 最新版 |
 |---|---|---|
 | OSCMes | OSC 受信対応の VCI へ PC からテキストメッセージを送信 | [v0.1](https://github.com/IosysPio/pio-OSC-tools-releases/releases/tag/OSCMes-v0.1) |
+| OSCVolume | マイク入力の音量を OSC で送信（ムービングライト VCI の操作など） | [v1.0](https://github.com/IosysPio/pio-OSC-tools-releases/releases/tag/OSCVolume-v1.0) |
+| OSCFFT | 音声入力のスペクトラムと音量を OSC で送信（AudioSpecrtumSync / MovingLight 互換） | [v1.0](https://github.com/IosysPio/pio-OSC-tools-releases/releases/tag/OSCFFT-v1.0) |
 
 各ツールの詳しい説明は告知ページをご覧ください。
 
@@ -31,8 +33,10 @@ Iosys Pio制作の、OSC系ツールの配布専用リポジトリです。
 | ツール | 利用条件 | 根拠 |
 |---|---|---|
 | OSCMes | 修正 BSD に準じた無保証(使用ライブラリ SharpOSC / NAudio は MIT) | 同梱 readme.md / License.txt |
+| OSCVolume | MIT License(同梱ライブラリは THIRD_PARTY_LICENSES を参照) | 同梱 LICENSE |
+| OSCFFT | MIT License(同梱ライブラリは THIRD_PARTY_LICENSES を参照) | 同梱 LICENSE |
 
-いずれのツールも、.NET などの実行環境や同梱ライブラリには各権利者の条件が適用されます。
+いずれのツールも、.NET / Python などの実行環境や同梱ライブラリには各権利者の条件が適用されます。
 本ソフトウェアは現状有姿(AS IS)で提供され、一切保証されません。利用は自己責任でお願いします。
 
 ## 作者
